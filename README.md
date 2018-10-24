@@ -57,6 +57,9 @@ if __name__ == '__main__':
  localhost:5000  
  ...you should see the output shown as follows...  
  Hello, world! - From Flask  
+ 
+ (NOTE: Press [CTRL]+[C] to stop the server running.)
+ 
  ...warmest congratulations; you've just created and run you very first Flask web page.
  
  Now, all that's left to do is follow along some tutorials in order to go learn more...
