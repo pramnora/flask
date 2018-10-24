@@ -8,8 +8,8 @@
 # the 'web02.html' web page should, automatically, 
 # load up and display itself inside of your web browser software.
 
-# The variable strName value will show inside of the web page: web02.html;
-# in the web page itself it's written as: {{name}}
+# The variables strName/intIDNumber values will show inside of the web page: web02.html;
+# in the web page itself these variables are referred to as: {{name}} {{id}}
 
 from flask import *
 
@@ -18,8 +18,9 @@ app = Flask(__name__)
 @app.route('/')
 
 def showWebPage():
- strName = "Paul"
- return render_template("web02.html",name=strName)
+ strName = "John Doe"
+ intIDNumber = 123
+ return render_template("web02.html",name=strName,id=intIDNumber)
 
 if __name__=="__main__":
  app.run()
