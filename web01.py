@@ -5,7 +5,7 @@
 # create a web page file called: web01.html.
 
 # When you run the following code...; 
-# the 'test01.html' web page should, automatically, 
+# the 'web01.html' web page should, automatically, 
 # load up and display itself inside of your web browser software.
 
 from flask import *
