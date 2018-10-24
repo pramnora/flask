@@ -35,13 +35,18 @@ C:\Windows\system32>pip install flask
 
 ## Writing you first Flask 'Hello, world!' program...
 
->>>from flask import *
->>>app = Flask(__name__)
->>>@app.route('/')
->>>def hw():
->>> return "Hello, world! - From Flask"
->>>if __name__ == '__main__':
->>> app.run()
+from flask import *
+
+app = Flask(__name__)
+
+@app.route('/')
+
+def hw():
+
+return "Hello, world! - From Flask"
+
+if __name__ == '__main__':
+ app.run()
  
  ...save the above file as being called: hw01.py; then, left double click on it to RUN...
  
