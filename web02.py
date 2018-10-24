@@ -8,19 +8,22 @@
 # the 'web02.html' web page should, automatically, 
 # load up and display itself inside of your web browser software.
 
-# The variables strName/intIDNumber values will show inside of the web page: web02.html;
-# in the web page itself these variables are referred to as: {{name}} {{id}}
+# The variables strName/intIDNumber/strLanguage values will show inside of the web page: web02.html;
+# in the web page itself these variables are referred to as: {{name}} {{id}} {{lang}}
+
+# NOTE: This file is called using...
+# http://localhost:5000/English -(or, any other language you please to enter)-
 
 from flask import *
 
 app = Flask(__name__)
 
-@app.route('/')
+@app.route('/<strLanguage>')
 
-def showWebPage():
+def showWebPage(strLanguage):
  strName = "John Doe"
  intIDNumber = 123
- return render_template("web02.html",name=strName,id=intIDNumber)
+ return render_template("web02.html",name=strName,id=intIDNumber,lang=strLanguage)
 
 if __name__=="__main__":
  app.run()
