@@ -5,8 +5,10 @@
 # create a web page file called: web01.html.
 
 # When you run the following code...; 
-# the 'web01.html' web page should, automatically, 
-# load up and display itself inside of your web browser software.
+# by typing into your web browser software address bar: 
+# localhost:5000
+# ...then, pressing the [Enter] key;
+# the 'web01.html' web page should, automatically, display. 
 
 from flask import *
 
