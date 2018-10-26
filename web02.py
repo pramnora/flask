@@ -5,6 +5,8 @@
 # create a web page file called: web02.html.
 
 # When you run the following code...; 
+# by typing into your web browser software:
+# localhost:5000/English       (English, is the 'user defined' text parameter)
 # the 'web02.html' web page should, automatically, 
 # load up and display itself inside of your web browser software.
 
