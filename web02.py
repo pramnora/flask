@@ -13,9 +13,6 @@
 # The variables strName/intIDNumber/strLanguage values will show inside of the web page: web02.html;
 # in the web page itself these variables are referred to as: {{name}} {{id}} {{lang}}
 
-# NOTE: This file is called using...
-# http://localhost:5000/English -(or, any other language you please to enter)-
-
 from flask import *
 
 app = Flask(__name__)
