@@ -1,6 +1,6 @@
 # Displaying web pages using Flask.
 
-# First, create a sub-directiory folder called: templates;
+# First, create a sub-directory folder called: templates;
 # and, inside of the 'templates' folder...;
 # create a web page file called: web01.html.
 
