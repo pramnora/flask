@@ -4,11 +4,11 @@
 # and, inside of the 'templates' folder...;
 # create a web page file called: web01.html.
 
-# When you run the following code...; 
-# by typing into your web browser software address bar: 
+# After running the following code...; 
+# go to your web browser software; and, in the address bar type in: 
 # localhost:5000
-# ...then, pressing the [Enter] key;
-# the 'web01.html' web page should, automatically, display. 
+# ...next, press the [Enter] key;
+# and, the 'web01.html' web page should, automatically, show. 
 
 from flask import *
 
